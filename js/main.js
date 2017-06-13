@@ -1,7 +1,6 @@
 $(document).on('ready', function() {
   var header_h = $("#nav-container").height();
-  $("#h").height(header_h-10);
-  
+  $("#h").height(header_h-10); 
 
   $("body").on("click","a", function (event) {
     event.preventDefault();
